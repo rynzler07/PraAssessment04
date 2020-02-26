@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pra Assessment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nim">6706184119</string>
+    <string name="nama">Fauzian Pradana Putra</string>
+    <string name="kelas">D3IF-42-04</string>
+</resources>

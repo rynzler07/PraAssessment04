@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   tools:context=".persegiPanjangFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+            android:id="@+id/hintPanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panjang"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+    />
+
+    <EditText
+            android:id="@+id/hintLebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lebar"
+            app:layout_constraintTop_toBottomOf="@id/hintPanjang"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+    />
+
+    <Button
+            android:id="@+id/btnHitungPersegiPanjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitung"
+            app:layout_constraintTop_toBottomOf="@id/hintLebar"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+    />
+
+    <TextView
+            android:id="@+id/tLuasPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luas = ..."
+            app:layout_constraintTop_toBottomOf="@id/btnHitungPersegiPanjang"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="25dp"
+    />
+
+    <TextView
+            android:id="@+id/tKelilingPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keliling = ..."
+            app:layout_constraintTop_toBottomOf="@id/tLuasPP"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="25dp"
+    />
+
+    <Button
+            android:id="@+id/btnSharePersegiPanjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            app:layout_constraintTop_toBottomOf="@id/tKelilingPP"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
